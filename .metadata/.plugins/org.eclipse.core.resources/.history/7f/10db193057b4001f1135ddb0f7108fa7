@@ -1,0 +1,5 @@
+package com.cricket.services;
+
+public interface MatchService {
+
+}

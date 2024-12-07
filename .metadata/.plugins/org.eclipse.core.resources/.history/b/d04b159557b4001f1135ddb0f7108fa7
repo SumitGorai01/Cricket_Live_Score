@@ -1,0 +1,34 @@
+package com.cricket.services.impl;
+
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.stereotype.Service;
+
+import com.cricket.entities.Match;
+import com.cricket.services.MatchService;
+
+@Service
+public class MatchServiceImpl implements MatchService{
+
+	private MathRepo matchRepo;
+	
+	@Override
+	public List<Match> getAllMatches() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Match> getLiveMatchs() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Map<String, String>> getPointTable() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
